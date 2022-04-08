@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Shows Found</title>
+    <link rel="stylesheet" href="/public/main_styles.css">
+</head>
+
+<body>
+    <main>
+        <h1>Show Finder</h1>
+        <article>
+            <p>
+            Hello! Welcome to Show Finder. With Show Finder users can search for film/shows in a database using search term  
+            from the title of the film/show. The top 5 results will show, once a titled is pressed you can see details 
+            about the film/show!
+            </p>
+            <form action="/searchshows" method="POST">
+                <label for="showSearchTerm">Search Term</label>
+                <input type="text" name="showSearchTerm" id="showSearchTerm">
+                <button type="submit">Search</button>
+            </form>
+        </article>
+    </main>
+</body>
+</html>

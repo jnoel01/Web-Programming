@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title class="title_page">The Whole Prime Number Checker</title>
+    <link rel="stylesheet" href = "/public/css/main.css">
+  </head>
+
+  <body>
+    <h1>The Whole Prime Number Checker</h1>
+    <div class="description"> This website allows you to check if a number is prime! To start input any number in the input 
+      box then press Enter or the "Check Me!" button. Thanks for using this :D </div>
+    </div>
+
+      <form id="static-form" method="post">
+        
+        <label for="number" class="numberr">Input Number</label>
+        <input  name="number" type="number" id="number">
+
+        <div  id="error-container"class="form-group hidden">
+          <div class="text-goes-here alert"></div>
+        </div>
+
+        <button class="button">Check Me!</button>
+        <ul id="attempts"></ul>
+        
+        <input name= '_method' value="PUT" hidden/>
+      </form>
+
+      <! --- To fix not posting problem --- >
+      <script src="/public/js/form.js"></script>
+
+
+      <footer class = "footer">
+        <div class="myname">Jessica Noel</div>
+        <div class="studentid">Student ID: 10445079</div>
+        <div class="Info">Junior Computer Science major at Stevens Institute of Technology</div>
+      </footer>
+  </body>
+</html>

@@ -1,0 +1,6 @@
+{
+    "mongoConfig" : {
+        "serverUrl": "mongodb://localhost:27017/",
+        "database": "Jessica_Noel_lab6"
+    }
+}

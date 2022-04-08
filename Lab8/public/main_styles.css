@@ -1,0 +1,75 @@
+
+html,
+
+section {
+  background: rgb(255, 204, 204);
+  color: rgb(41, 0, 108);
+  font-family: Times;
+  text-align: right;
+}
+
+button {
+  border-radius: 50%;
+  background-color: lightgreen;
+  color: blueviolet;
+  border: 2px solid blue;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: blueviolet;
+  color: lightgreen;
+  border: 2px solid blue;
+}
+
+article {
+  background: rgb(210, 210, 210);
+  text-shadow: 3pt;
+  color: rgb(32, 0, 84);
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25pt;
+  color:rgb(0, 50, 0);
+  text-decoration: underline;
+}
+
+a {
+  font-family: Arial, Helvetica, sans-serif;
+  color:blue
+}
+
+p {
+  font-family: 'Courier New', Courier, monospace;
+  color: red;
+}
+
+ul {
+  text-align: center;
+}
+
+li {
+  text-align: right;
+  list-style-position: inside;
+}
+
+dt {
+  font-size: 12pt;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: underline dotted;
+}
+
+dl {
+  font-size: 10pt;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(24, 0, 96);
+}
+
+
+
+main {
+  max-width: 500px;
+  margin: 400px;
+}

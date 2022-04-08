@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Shows Found</title>
+    <link rel="stylesheet" href="/public/main_styles.css">
+</head>
+
+<article>
+    <div>
+        {{#if nameTrue}}
+            <h1>{{name}}</h1>
+        {{else}}
+            <h1>N/A</h1>
+        {{/if}}
+
+        {{#if imageTrue}}
+            <img alt="{{name}}" src="{{image}}"/>
+        {{else}}
+            <img alt="{{name}}" src="https://e7.pngegg.com/pngimages/829/733/png-clipart-logo-brand-product-trademark-font-not-found-logo-brand.png"/>
+        {{/if}}
+
+        <dl>
+
+            <dt>Language</dt>
+                {{#if languageTrue}}
+                    <dd>{{language}}</dd>
+                {{else}}
+                    <dd>N/A</dd>
+                {{/if}}
+            
+
+            <dt>Genres</dt>
+                {{#if genreTrue}}
+                    <dd>
+                        <ul>
+                            {{#each genre}}
+                            <li>{{this}}</li>
+                            {{/each}}
+                        </ul>
+                    </dd>
+                {{else}}
+                    <dd><ul><li>N/A</li></ul></dd>
+                {{/if}}
+
+
+            <dt>Average Rating</dt>
+                {{#if ratingTrue}}
+                    <dd>{{rating}}</dd>
+                {{else}}
+                    <dd>N/A</dd>
+                {{/if}}
+
+            
+            <dt>Network Name</dt>
+                {{#if networkTrue}}
+                  <dd>{{network}}</dd>
+                {{else}}
+                    <dd>N/A</dd>
+                {{/if}}
+
+            
+            <dt>Summary</dt>
+                {{#if summaryTrue}}
+                    <dd>{{summary}}</dd>
+                {{else}}
+                    <dd>N/A</dd>
+                {{/if}}
+        </dl>
+    </div>
+</article>

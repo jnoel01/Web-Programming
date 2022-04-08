@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Shows Found</title>
+    <link rel="stylesheet" href="/public/main_styles.css">
+</head>
+
+<section>
+  <h1>Shows Found</h1>
+  {{#if result}}
+  <h2>Searched term: {{showSearchTerm}}</h2>
+  <ul>
+    {{#if show1Found}}
+    <li>
+        <a href="/show/{{show1Id}}">{{show1Name}}</a>
+    </li>
+    {{/if}}
+
+    {{#if show2Found}}
+    <li>
+        <a href="/show/{{show2Id}}">{{show2Name}}</a>
+    </li>
+    {{/if}}
+    
+    {{#if show3Found}}
+    <li>
+        <a href="/show/{{show3Id}}">{{show3Name}}</a>
+    </li>
+    {{/if}}
+
+    {{#if show4Found}}
+    <li>
+        <a href="/show/{{show4Id}}">{{show4Name}}</a>
+    </li>
+    {{/if}}
+
+    {{#if show5Found}}
+    <li>
+        <a href="/show/{{show5Id}}">{{show5Name}}</a>
+    </li>
+    {{/if}}
+  </ul>
+  {{else}}
+  <p class="show-not-found">We're sorry, but no results were found for {{showSearchTerm}}</p>
+  {{/if}}
+  <a href="/">Make another search</a>
+</section>
