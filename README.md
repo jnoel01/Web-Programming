@@ -1,4 +1,4 @@
-LEARNING OBJECTIVES  
+<u><b>LEARNING OBJECTIVES </b></u>
 • Programming Environment: Install and configure a modern web programming environment that includes a web server, a modern backend programming language, and a modern database.  
 • Server-side: Write programs in the chosen programming language that use most of the features  of the language and its standard libraries.  
 • Database: Use a modern database in order to create database-driven applications.  
