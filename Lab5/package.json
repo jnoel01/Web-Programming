@@ -1,0 +1,15 @@
+{
+  "name": "lab5",
+  "version": "1.0.0",
+  "description": "Lab5",
+  "main": "app.js",
+  "scripts": {
+    "start": "app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jessica Noel 10445079",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
