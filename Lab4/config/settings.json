@@ -1,6 +1,0 @@
-{
-  "mongoConfig": {
-    "serverUrl": "mongodb+srv://jnoel:abc@jessicacluster.jiavr.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
-    "database": "Jessica_Noel_lab4"
-  }
-}
